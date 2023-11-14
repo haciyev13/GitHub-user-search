@@ -18,12 +18,89 @@
     <header class="header">
       <div class="container">
         <div class="header__content">
-            <div class="header__content-logo">
-                <h1>devfinder</h2>
-            </div>
+          <div class="header__content-logo">
+            <h1>devfinder</h1>
+          </div>
+          <div class="header__content-theme">
+            <span class="header__content-theme-text">LIGHT</span>
+            <img src="./assets/images/002-sun.png" alt="Icon" />
+          </div>
         </div>
       </div>
     </header>
+
+    <section class="section__search">
+      <div class="container">
+        <div class="section__search-content">
+          <div class="section__search-content-input">
+            <label for="text">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input
+                type="text"
+                name="text"
+                placeholder="Search GitHub username..."
+                id="input-search"
+              />
+            </label>
+          </div>
+          <div class="section__search-content-btn">
+            <a href="#">Search</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__card">
+      <div class="container">
+        <div class="section__card-content">
+          <div class="section__card-content-img">
+            <img src="./assets/images/Bitmap.png" alt="Photo" />
+          </div>
+          <div class="section__card-content-info">
+            <div class="section__card-content-title">
+              <h3>The Octocat </h3>
+              <a href="#">@octocat </a>
+              <p class="text-first">This profile has no bio</p>
+              <p>Joined 25 Jan 2011</p>
+            </div>
+            <div class="section__card-main">
+              <div class="section__card-repos">
+                <p>Repos</p>
+                <span>8</span>
+              </div>
+              <div class="section__card-follow">
+                <p>Follow</p>
+                <span>3938</span>
+              </div>
+              <div class="section__card-following">
+                <p>Following</p>
+                <span>9</span>
+              </div>
+            </div>
+            <div class="section__card-footer">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  San Fransisco
+                </li>
+                <li>
+                  <i class="fa-solid fa-link"></i>
+                  <a href="#">https://github.blog</a>
+                </li>
+                <li>
+                  <i class="fa-brands fa-twitter"></i>
+                  Twitter
+                </li>
+                <li>
+                  <i class="fa-solid fa-hotel"></i>
+                  @github
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="./assets/js/app.js"></script>
   </body>
